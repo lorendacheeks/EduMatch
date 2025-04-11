@@ -1,0 +1,93 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  h1 {
+    color: maroon;
+    margin-bottom: 20px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr); /* 8 buttons per row */
+    grid-gap: 15px;
+    justify-items: center;
+    margin-bottom: 20px;
+    grid-auto-rows: 70px; /* Adjusted row height to fit larger buttons */
+  }
+  
+  .student-button {
+    background-color: lightblue;
+    color: maroon;
+    border: 2px solid maroon;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+    text-align: center;
+    font-size: 14px; /* Set font size to 14px */
+    box-sizing: border-box; /* Ensure padding is included in the button's width */
+    min-height: 60px; /* Ensures button has enough height to accommodate text */
+  }
+  
+  .student-button:hover {
+    background-color: #cce6ff;
+  }
+  
+  .student-button.present {
+    background-color: grey;
+    color: white;
+    border-color: darkgrey;
+  }
+  
+  button {
+    background-color: maroon;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 8px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #800000;
+  }
+  
+  input[type="number"] {
+    padding: 6px;
+    margin-left: 10px;
+    width: 60px;
+    font-size: 16px;
+    border: 2px solid maroon;
+    border-radius: 4px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .group {
+    background-color: #ffe6e6;
+    border-left: 5px solid maroon;
+    padding: 10px;
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: left;
+    border-radius: 5px;
+  }
+  
